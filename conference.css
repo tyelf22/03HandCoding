@@ -1,0 +1,81 @@
+/* CSS reset */
+body, p, h1, h2, h3, h4, h5, h6{
+    padding: 0;
+    margin: 0; 
+  
+}
+
+/* Box model fix here*/
+*{
+    -moz-box-sizing: border-box; -webkit-box-sizing:
+    border-box; box-sizing: border-box;
+}
+
+body{
+    font-family: 'Krub', sans-serif;
+    font-weight: 300;
+    color: #333333;
+    background-color: white;
+    
+}
+
+/* Header */
+header{
+    background-color: #f3f3f3;
+}
+
+header h1{
+    color: #333333;
+    padding: 1rem 0 0 2%;
+    font-size: 1.75rem;
+}
+
+header h2{
+    color: #333333;
+    padding-left: 3%;
+    font-size: .86rem;
+    letter-spacing: 4px
+}
+
+/* Navigation */
+nav{
+    background-color: #555;
+    border-top: solid 1px #000;
+    border-bottom: solid 1px #000;
+}
+
+nav ul.menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul.menu li a{
+    display: block;
+    padding: .5rem 1.5rem;
+    color: #f3f3f3;
+    text-decoration: none;
+    border-right: solid 1px #f3f3f3;
+}
+
+nav ul.menu li{
+    float: left;
+    
+}
+
+nav ul.menu li a:hover{
+  background-color: #f3f3f3;
+  color: #000                             ;
+}
+
+nav ul.menu li.active{
+    background-color: #d7283a;
+}
+
+div.keepOpen{
+    clear: both;
+}
+
+
+
+
