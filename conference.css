@@ -39,7 +39,7 @@ header h2{
 
 /* Navigation */
 nav{
-    background-color: #555;
+    background-color: #0E537F;
     border-top: solid 1px #000;
     border-bottom: solid 1px #000;
 }
@@ -69,7 +69,7 @@ nav ul.menu li a:hover{
 }
 
 nav ul.menu li.active{
-    background-color: #d7283a;
+    background-color: #4D7F5B;
 }
 
 div.keepOpen{
@@ -84,7 +84,7 @@ main {
 
 main h1 {
     font-size: 2rem;
-    color: #1290cf;
+    color: #4D7F5B;
     border-bottom: 1px solid LightSlateGray;
     margin-bottom: .4rem;
 }
@@ -113,7 +113,7 @@ main p.topPage{
 }
 main p.topPage a{
     text-decoration: none;
-    color: #d7283a;
+    color: #0E537F;
 }
 
 main p.topPage a:hover{
@@ -123,6 +123,52 @@ main p.topPage a:hover{
 main a:hover{
     color: #1290cf;
 }
+
+/* Images */
+
+figure.rightSide{
+    float: right;
+    width: 33.333%;
+    border: solid 1px #4c6c73;
+    margin: 0 0 .25em 2%;
+}
+
+figure.rightSide img {
+    width: 100%;
+}
+
+figure.rightSide figcaption {
+    text-align: center;
+    font-size: .7rem;
+    color: #4c6c73;
+
+}
+figure.winners {
+    float: left;
+    padding-top: 2px;
+    border: 1px solid #4c6c73;
+    text-align: center;
+    height: 200px;
+    width: 179px;
+    margin: 1rem;
+}
+figure.winners img{
+    width: 100%
+}
+
+figure.winners figcaption {
+    font-size: .8rem;
+}
+
+figure.winners figcaption span {
+    display: block;
+    font-weight: bold;
+    font-size: .9rem;
+    color: #4D7F5B;
+}
+
+
+
 
 /* Lists */
 main ul.check, main ol.bulb{
@@ -149,7 +195,7 @@ main dl dd{
 
 dd.aProper a {
     text-decoration: none;
-    color: #d7283a;
+    color: #4D7F5B;
 }
 dt#name{
     margin-top: 1rem;
@@ -158,11 +204,11 @@ dt#name{
 
 dd#email a{
     text-decoration: none;
-    color: #d7283a;
+    color: #4D7F5B;
 }
 
 footer{
-    background-color: rgb(18, 144, 207);
+    background-color: rgb(14, 83, 127);
     text-align: center;
     color: white;
     padding: .5rem;
